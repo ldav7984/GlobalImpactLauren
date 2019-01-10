@@ -23,44 +23,45 @@
                                     <constraint firstAttribute="height" constant="232" id="Afg-jE-RU6"/>
                                 </constraints>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElV-QI-9B4">
-                                <rect key="frame" x="93" y="255" width="189" height="43"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GlobalIssuesAppScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="qL6-T0-m1t">
+                                <rect key="frame" x="62" y="292" width="250" height="261"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYQ-qL-ane">
+                                <rect key="frame" x="0.0" y="546" width="375" height="121"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="X1C-TC-s5T"/>
+                                    <constraint firstAttribute="height" constant="121" id="R1C-vN-V2U"/>
+                                </constraints>
+                                <string key="text">The coral reefs in Aceh, Sumatra have been affected by CO2 emissions most severely of all Southeast Asia's coral reefs, which are famous for their diversity. Many people in the area rely on the reefs for food and tourism income.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElV-QI-9B4">
+                                <rect key="frame" x="93" y="253" width="189" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="X1C-TC-s5T"/>
                                 </constraints>
                                 <state key="normal" title="Animate to Impact Area"/>
                                 <connections>
                                     <action selector="AnimateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HNh-Kr-yQq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYQ-qL-ane">
-                                <rect key="frame" x="0.0" y="522" width="375" height="145"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="145" id="R1C-vN-V2U"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qL6-T0-m1t">
-                                <rect key="frame" x="0.0" y="306" width="375" height="208"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4KD-JB-cLA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4Az-Vm-7cK"/>
-                            <constraint firstItem="4KD-JB-cLA" firstAttribute="leading" secondItem="qL6-T0-m1t" secondAttribute="leading" id="967-F6-rpN"/>
+                            <constraint firstItem="4KD-JB-cLA" firstAttribute="leading" secondItem="qL6-T0-m1t" secondAttribute="leading" constant="-62" id="967-F6-rpN"/>
                             <constraint firstItem="4KD-JB-cLA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ucu-yp-aau"/>
-                            <constraint firstItem="YYQ-qL-ane" firstAttribute="top" secondItem="qL6-T0-m1t" secondAttribute="bottom" constant="8" symbolic="YES" id="Y3q-qM-3yM"/>
+                            <constraint firstItem="YYQ-qL-ane" firstAttribute="top" secondItem="qL6-T0-m1t" secondAttribute="bottom" constant="-7" id="Y3q-qM-3yM"/>
                             <constraint firstItem="YYQ-qL-ane" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bJ4-Ou-kA7"/>
                             <constraint firstItem="ElV-QI-9B4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93" id="da4-Hn-sF1"/>
                             <constraint firstItem="4KD-JB-cLA" firstAttribute="centerX" secondItem="ElV-QI-9B4" secondAttribute="centerX" id="fvh-7f-aG1"/>
                             <constraint firstItem="4KD-JB-cLA" firstAttribute="trailing" secondItem="YYQ-qL-ane" secondAttribute="trailing" id="h1d-CA-Que"/>
-                            <constraint firstItem="qL6-T0-m1t" firstAttribute="top" secondItem="ElV-QI-9B4" secondAttribute="bottom" constant="8" symbolic="YES" id="hAX-fS-Fbc"/>
+                            <constraint firstItem="qL6-T0-m1t" firstAttribute="top" secondItem="ElV-QI-9B4" secondAttribute="bottom" constant="1" id="hAX-fS-Fbc"/>
                             <constraint firstItem="4KD-JB-cLA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="mgF-6D-Fsh"/>
-                            <constraint firstItem="4KD-JB-cLA" firstAttribute="trailing" secondItem="qL6-T0-m1t" secondAttribute="trailing" id="rXo-DS-i7H"/>
+                            <constraint firstItem="4KD-JB-cLA" firstAttribute="trailing" secondItem="qL6-T0-m1t" secondAttribute="trailing" constant="63" id="rXo-DS-i7H"/>
                             <constraint firstItem="4KD-JB-cLA" firstAttribute="leading" secondItem="YYQ-qL-ane" secondAttribute="leading" id="vdm-xX-VpF"/>
-                            <constraint firstItem="ElV-QI-9B4" firstAttribute="top" secondItem="4KD-JB-cLA" secondAttribute="bottom" constant="3" id="vvk-Sk-w52"/>
+                            <constraint firstItem="ElV-QI-9B4" firstAttribute="top" secondItem="4KD-JB-cLA" secondAttribute="bottom" constant="1" id="vvk-Sk-w52"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -79,4 +80,7 @@
             <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="GlobalIssuesAppScreenshot" width="334" height="484"/>
+    </resources>
 </document>
