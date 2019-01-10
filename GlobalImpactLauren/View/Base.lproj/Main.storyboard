@@ -69,6 +69,7 @@
                         <outlet property="AnimateButton" destination="ElV-QI-9B4" id="tbv-GK-ktu"/>
                         <outlet property="Image" destination="qL6-T0-m1t" id="GTk-yt-e9Q"/>
                         <outlet property="MapKitOutlet" destination="4KD-JB-cLA" id="hgd-rm-cbk"/>
+                        <outlet property="mapView" destination="4KD-JB-cLA" id="iI7-br-aPJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
