@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ImpactViewController.swift
 //  GlobalImpactLauren
 //
 //  Created by Davis, Lauren on 1/10/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ImpactViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
